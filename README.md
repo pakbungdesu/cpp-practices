@@ -5,3 +5,5 @@
 - [Hangman](https://replit.com/@pakbungdesu/cpp-hangman?v=1)
 - [Aunction](https://replit.com/@pakbungdesu/cpp-aunction?v=1)
 - [Blackjack](https://replit.com/@pakbungdesu/cpp-blackjack?v=1)
+- [Number Guessing Game](https://replit.com/@pakbungdesu/cpp-guess-the-number?v=1#main.cpp)
+- [Coffee Machine](https://replit.com/@pakbungdesu/cpp-coffee-machine?v=1)
