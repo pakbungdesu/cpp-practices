@@ -9,9 +9,13 @@ void swapIntsNoThird1(int* a, int* b) {
 }
 
 void swapIntsNoThird2(int* a, int* b) {
-    *a = *a * *b;
+   try {
+   *a = *a * *b;
     *b = *a / *b;
     *a = *a / *b;
+   } catch (...){
+      cout << "Exception occurred" << endl;
+   }
 }
 
 void input(int& a, int& b) {
