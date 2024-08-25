@@ -2,6 +2,12 @@
 #include <iostream>
 using namespace std;
 
+void swapTemp(int *a, int *b) {
+    int temp = *ptr2;
+    *ptr2 = *ptr1;
+    *ptr1 = temp;
+}
+
 void swapIntsNoThird1(int* a, int* b) {
     *a = *a + *b;
     *b = *a - *b;
@@ -35,9 +41,14 @@ int main() {
     // 1
     input(a, b);
     swapIntsNoThird1(&a, &b);
-    output(a, b, "swapIntsNoThird1");
+    output(a, b, "swapTemp");
 
     // 2
+    input(a, b);
+    swapIntsNoThird1(&a, &b);
+    output(a, b, "swapIntsNoThird1");
+
+    // 3
     input(a, b);
     swapIntsNoThird2(&a, &b);
     output(a, b, "swapIntsNoThird2");
