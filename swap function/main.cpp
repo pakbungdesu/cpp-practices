@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void swapTemp(int *a, int *b) {
+void swapTemp(int* a, int* b) {
     int temp = *ptr2;
     *ptr2 = *ptr1;
     *ptr1 = temp;
